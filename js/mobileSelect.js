@@ -4,7 +4,9 @@
  * Released under the MIT License.
  */
 
-(function() {
+(function () {
+	require('../css/mobileSelect.css');
+
 	function getClass(dom,string) {
 		return dom.getElementsByClassName(string);
 	}
